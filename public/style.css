@@ -7,7 +7,7 @@ html, body {
 
 body {
 	font-family: "Helvetica Neue",sans-serif;
-	font-weight: lighter;
+	
 	
 }
 img {
@@ -359,7 +359,11 @@ select{
 		height: 250px;
 	}
 	header{
+		height: 80%;
 		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image/background2.jpg);
+	}
+	.contain{
+		margin-top: 200px;
 	}
 }
 :root {
@@ -370,7 +374,7 @@ select{
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
   margin-bottom: 0;
-  background-color: #fff;
+  background-color: #9FF781;
 }
 @media (min-width: 768px) {
   .jumbotron {
@@ -403,6 +407,27 @@ footer p {
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
 #contact{
-	background: red;
-
+	background-color: #9FF781;
+}
+#album{
+	background-color: #9FF781;
+	border-radius: 0px;
+	margin-top: -16px; margin-bottom: -16px; 
+}
+#album-list{
+	background-color: #CECEF6!important;
+}
+#about{
+	margin-top: -16px; margin-bottom: -16px; 
+	background-color: #CECEF6!important;
+}
+.btn-outline-secondary {
+  color: #0206b1!important;
+  border-color: #b10818!important;
+}
+#about-bg{
+	background-color: #CECEF6!important;
+}
+#main{
+	background-color: #BDBDBD!important;
 }
