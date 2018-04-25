@@ -20,15 +20,7 @@ header {
 	height: 100vh;
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image/background.jpg);
 	background-size:cover;
-	
-
-	
-	
 }
-
-
-
-
 
 .menu {
 	position: fixed;
@@ -38,12 +30,15 @@ header {
 	height: 100vh;
 	padding: 10px;
 	transition: .5s;
-	background: rgba(0,11,12,0.8);
+	
 	text-align: center;
 	box-sizing: border-box;
 	z-index:300;
+	float:left;
 }
-
+#menu-phu{
+	top: 200px;
+}
 .menu ul{
 	
 	padding:40px 0px;
@@ -76,6 +71,26 @@ header {
 	
 }
 
+#menu-phu{
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #000;
+	background-color: rgba(0,11,12,0.5);
+
+}
+#menu-phu li{
+	
+	margin:auto;
+	font-size: 14px;
+}
+#menu-phu li a{
+	color: white;
+}
+#menu-phu a:hover{
+	background:white;
+	color:#DBA901;
+	text-decoration: underline;
+}
 .social-icon
 {
 	margin: 0;
@@ -293,7 +308,6 @@ select{
 	display: none;
 }
 
-
 @media (max-width: 367px) {
 	.cart-icon{
 		display: none;
@@ -342,7 +356,7 @@ select{
 		font-size: 18px;
 		color: #fff;
 		border-radius: 50%;
-background-color: none;
+		background-color: none;
 		transition: .5s;
 	}
 	.social-icon li:hover
@@ -372,41 +386,41 @@ background-color: none;
 	}
 }
 :root {
-  --jumbotron-padding-y: 3rem;
+	--jumbotron-padding-y: 3rem;
 }
 
 .jumbotron {
-  padding-top: var(--jumbotron-padding-y);
-  padding-bottom: var(--jumbotron-padding-y);
-  margin-bottom: 0;
-  background-color: #9FF781;
+	padding-top: var(--jumbotron-padding-y);
+	padding-bottom: var(--jumbotron-padding-y);
+	margin-bottom: 0;
+	background-color: #9FF781;
 }
 @media (min-width: 768px) {
-  .jumbotron {
-    padding-top: calc(var(--jumbotron-padding-y) * 2);
-    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
-  }
+	.jumbotron {
+		padding-top: calc(var(--jumbotron-padding-y) * 2);
+		padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+	}
 }
 
 .jumbotron p:last-child {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .jumbotron-heading {
-  font-weight: 300;
+	font-weight: 300;
 }
 
 .jumbotron .contain {
-  max-width: 40rem;
+	max-width: 40rem;
 }
 
 footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 footer p {
-  margin-bottom: .25rem;
+	margin-bottom: .25rem;
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
@@ -427,8 +441,8 @@ footer p {
 	background-color: #CECEF6!important;
 }
 .btn-outline-secondary {
-  color: #0206b1!important;
-  border-color: #b10818!important;
+	color: #0206b1!important;
+	border-color: #b10818!important;
 }
 #about-bg{
 	background-color: #CECEF6!important;
@@ -436,3 +450,8 @@ footer p {
 #main{
 	background-color: #BDBDBD!important;
 }
+
+
+
+
+
