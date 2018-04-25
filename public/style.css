@@ -38,7 +38,7 @@ header {
 	height: 100vh;
 	padding: 10px;
 	transition: .5s;
-	background: #262626;
+	background: rgba(0,11,12,0.8);
 	text-align: center;
 	box-sizing: border-box;
 	z-index:300;
@@ -52,7 +52,9 @@ header {
 .menu li {
 	list-style: none;
 	font-family: sans-serif; 
+	padding: 0px;
 	transition: all 0.3s;
+
 }
 .menu li a{
 	display: block;
@@ -63,13 +65,12 @@ header {
 	padding: 10px 0; 
 }
 .menu li:hover{
-	background: #fc2827;
-	
+	background: #fc2827;	
 }
 
 
 .menu.showing{
-
+	background-color: rgba(0,11,12,0.8);
 	left: 0px;
 	
 	
@@ -106,7 +107,7 @@ header {
 }
 .social-icon li:hover
 {
-	background: #262626;
+	background: none;
 }
 .social-icon a:hover
 {
@@ -288,6 +289,10 @@ select{
 	margin: 5px 0px;
 
 }
+.menu ul ul{
+	display: none;
+}
+
 
 @media (max-width: 367px) {
 	.cart-icon{
@@ -337,16 +342,16 @@ select{
 		font-size: 18px;
 		color: #fff;
 		border-radius: 50%;
-
+background-color: none;
 		transition: .5s;
 	}
 	.social-icon li:hover
 	{
-		background: #262626;
+		background-color: none;
 	}
 	.social-icon a:hover
 	{
-		background: #262626;
+		background: none;
 		color: #fc2827;
 	}
 	.row1.active{
