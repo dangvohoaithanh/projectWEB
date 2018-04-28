@@ -88,30 +88,34 @@ header {
 #menu-phu li .nav-link{
 	color: white;
 }
-#menu-phu li #menuphu-atag:hover{
+#menu-phu li a:hover{
 	background:white;
 	color:#DBA901;
-	text-decoration: underline;
 	border-bottom: none;
 }
-#menu-phu #menuphu-atag #menu-phu-cap1 li:hover{
+#menu-phu #menu-phu-cap1 li:hover{
 	border-top: none;
 }
 #menu-phu-cap2 li a:hover{
 	color:#DBA901!important;
-	text-decoration: underline;
 }
 #menu-phu li:hover #menu-phu-cap1{
 	
 	display: block;
+}
+#menu-phu li:hover #menu-phu-cap1-1{
+	
+	display: block;
+
 }
 #menu-phu li:hover #menu-phu-cap2{
 	
 	display: block;
 }
 
-.active{
+.active1{
 	background:white;
+	color:#DBA901!important;
 }
 #menu-phu-cap1{
 	position: absolute;
@@ -121,6 +125,18 @@ header {
 	border: 1px solid #000;
 	border-top: none;
 	border-left: none;
+	background-color: #fff;
+	z-index: 300;
+}
+#menu-phu-cap1-1{
+	position: fixed;
+	right: 163px;
+	display: none;
+	width: auto;
+	box-sizing: border-box;
+	border: 1px solid #000;
+	border-top: none;
+	border-right: none;
 	background-color: #fff;
 	z-index: 300;
 }
@@ -134,6 +150,18 @@ header {
 	font-size: 14px;
 }
 #menu-phu-cap1 .menuc1 a{
+	color: #000!important;
+}
+#menu-phu-cap1-1 .menuc1
+{
+	left: 50px;
+	margin-left: 0px;
+	padding: 0px 20px;
+	list-style-type:none;
+	float: left ;
+	font-size: 14px;
+}
+#menu-phu-cap1-1 .menuc1 a{
 	color: #000!important;
 }
 #menu-phu-cap2{
